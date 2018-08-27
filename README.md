@@ -11,7 +11,7 @@ APP_VERSION=v6.0.0-beta docker build --build-arg APP_VERSION=$APP_VERSION -t fwb
 Connecting a container to a host's X server for display
 
 ```bash
-docker run -e DISPLAY --rm -ti --net host fwbuilder:latest
+docker run -e DISPLAY --rm -ti --net host rchicoli/fwbuilder:latest
 ```
 
 ## To do
