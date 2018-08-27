@@ -18,4 +18,3 @@ docker run -e DISPLAY --rm -ti --net host fwbuilder:latest
 
   - write an entrypoint for flexible UID and GID
   - use travis for CI
-  - create a temporary docker image for compiling
